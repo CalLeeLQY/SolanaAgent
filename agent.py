@@ -66,8 +66,7 @@ def generate_response_with_chatgpt(prompt):
     )
     return response.choices[0].text.strip()
 
-
-filename = "C:\\Users\\CalLee\\Desktop\\solana-gent\\solana-whitepaper-en.pdf"
+filename = "solana-whitepaper-en.pdf"
 pdf_text = extract_text_from_pdf(filename)
 
 print("准备就绪 - 提问或输入q/Q退出：")
